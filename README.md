@@ -1,22 +1,19 @@
-# Buscando dados da API: Coin Market Cap :moneybag:
-
-[![Coin](https://i.imgur.com/7lpUF8Z.jpg)](https://apicriptomoedas.netlify.app/)
+# Fetching data from API: Coin Market Cap :moneybag:
 
 ### API:
-- Realizar o cadastro ou login para resgatar sua key.
+- Regístrese o inicie sesión para canjear su clave.
 
 URL: https://pro.coinmarketcap.com/
 
 ### Front-end:
 - Bootstrap CDN
-- Não é necessário baixar arquivos.
-- Basta linkar o CSS em seu index.
+- No es necesario descargar archivos.
+- Simplemente enlaza el CSS en tu índice.
 
 URL: https://www.bootstrapcdn.com/
 
-### Extensão:
-- Moesif Orign & CORS Changer no navegador Google Chrome.
-- Realizar a instração da extensão no browser Google Chrome.
-- Sem a extensão - online no browser, não carrega os dados.
+### Extensión:
+- Moesif Orign & CORS Changer en el navegador Google Chrome.
+- Instale la extensión en el navegador Google Chrome.
+- Sin la extensión - online en el navegador, no cargará los datos.
 
-URL: https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc/related

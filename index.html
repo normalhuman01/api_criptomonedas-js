@@ -37,8 +37,8 @@
 
         // GET Fetch Requisition
         fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' + 
-                apikey.key) // URI que faz a requisição.
-                .then((response) => { // Tratamento de erro.
+                apikey.key) // URI that makes the request.
+                .then((response) => { // Error treatment.
                     if(!response.ok) 
                     throw new Error('Erro ao executar a requisição, status ' + response.status);
                     return response.json();
@@ -67,7 +67,7 @@
                         </div>
                         `;
                         
-                        // Enviará as informações para o nosso HTML.
+                        // It will send the information to our HTML.
                         document.getElementById("coins").innerHTML = texto;
                     }
                 })
